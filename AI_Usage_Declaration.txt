@@ -1,0 +1,36 @@
+AI Usage Declaration
+
+After completing the assignment, I deployed the project on GitHub Pages. At that stage, I encountered an issue: the images in the assets folder were not loading on the deployed site, although they were visible locally. This resulted in 404 errors for all images.
+
+Purpose of AI usage:
+
+To understand why images were not loading on GitHub Pages.
+
+To get guidance on the correct Git commands and steps to ensure the assets folder was properly tracked and uploaded.
+
+
+AI was NOT used for:
+
+Writing the core HTML or CSS for the assignment.
+
+Structuring the layout, styling, or implementing any Figma design elements.
+
+
+Reason for using AI:
+
+I faced a technical deployment issue unrelated to the main coding task.
+
+AI helped me quickly identify that the problem was due to Git tracking/caching of the assets folder and path issues, and suggested the proper steps to fix it.
+
+
+After applying the AI-guided solution, all images loaded correctly on GitHub Pages.
+
+I confirm that the main task (HTML + CSS coding from Figma design) was done entirely by me without dependency on AI.
+
+
+
+
+
+
+Note: The assignment was completed within the 1-hour time limit. The timer was not visible on the screen recording due to oversight, but the coding and deployment process reflects the time constraint.
+

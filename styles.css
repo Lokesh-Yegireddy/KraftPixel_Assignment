@@ -1,0 +1,157 @@
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:70px;
+}
+
+.nav-brand{
+    margin-left: 40px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+nav ol li{
+    display: inline;
+    margin-right: 40px;
+}
+
+
+.nav-actions{
+    margin-right: 40px;;
+}
+
+.btn-login{
+    border: white;
+    border-radius: 10px;
+    height: 35px;
+    width:60px;
+    margin-right: 10px;
+    color: #667085;
+    background-color: white;
+}
+
+.btn-signup{
+    border:white;
+    border-radius: 10px;
+    height:30px;
+    width:60px;
+    color:white;
+    background-color: #7F56D9;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+
+.about-intro{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    align-items:center;
+    justify-content: center;
+    margin:50px;
+    margin-bottom: 70px;
+  
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    margin:30px;
+    gap:50px;
+    background-color: #F9FAFB;
+}
+
+.about-image{
+    float:left;
+    margin-right: 50px;
+}
+
+.about-photo{
+    margin-top: 40px;
+    height:400px;
+    width:300px;
+}
+
+.about-content{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin:30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-extra{
+    display: none;
+}
+
+.stats{
+    margin:50px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: space-between;
+}
+
+.stats-row{
+    display:flex;
+    gap:150px;
+}
+
+.stats h1{
+    font-size:50px;
+    font-weight: 500;
+}
+
+
+@media(max-width:768px){
+    .about-extra{
+        margin-top: 50px;
+        display:block;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .stats-row{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+
+    .about-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-photo{
+        height: 400px;
+        width: 300px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .nav-actions{
+        display:none;
+    }
+
+    .toggle-icon{
+        width:20px;
+        height:20px;
+        margin:40px;
+    }
+
+    .nav-toggle{
+        display: block;
+    }
+}
